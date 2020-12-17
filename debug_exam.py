@@ -43,7 +43,7 @@ def uniqueUpdate(data1, data2):
             v1 = data1[k]
             # (k, v1) in dict1
             # Check if v1 != v2
-            if v1 != v2:
+            ELIF v1 != v2:
                 # Add (k, [v1, v2])
                 # to dictionary                
                 dupKeys[k] = [v1, v2]
